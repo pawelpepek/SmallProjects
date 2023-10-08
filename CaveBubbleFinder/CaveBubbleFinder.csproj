@@ -1,15 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CaveBubbleFinder\CaveBubbleFinder.csproj" />
-    <ProjectReference Include="..\TreeTraversal\TreeTraversal.csproj" />
+    <ProjectReference Include="..\BubbleFinder\BubbleFinder.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="caves.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
