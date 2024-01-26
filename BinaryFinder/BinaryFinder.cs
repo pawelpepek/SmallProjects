@@ -1,11 +1,11 @@
-﻿namespace BubbleFinder;
+﻿namespace BinaryFinder;
 
-public sealed class BubbleFinder<TSource, TSearched> : BubbleFinderBase<TSource, TSearched>
+public sealed class BinaryFinder<TSource, TSearched> : BinaryFinderBase<TSource, TSearched>
 {
     private readonly Func<TSource, TSearched, ElementIs> _rowIsThan;
     private readonly Func<TSearched, TSearched> _itemTransform;
 
-    public BubbleFinder(Func<TSource, TSearched, ElementIs> rowIsThan, Func<TSearched, TSearched> itemTransform)
+    public BinaryFinder(Func<TSource, TSearched, ElementIs> rowIsThan, Func<TSearched, TSearched> itemTransform)
     {
         _rowIsThan = rowIsThan;
         _itemTransform = itemTransform;

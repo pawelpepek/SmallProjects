@@ -1,8 +1,8 @@
-﻿using BubbleFinder;
+﻿using BinaryFinder;
 
-namespace CaveBubbleFinder;
+namespace CaveBinaryFinder;
 
-public class CaveFinder : BubbleFinderBase<string, string>
+public class CaveFinder : BinaryFinderBase<string, string>
 {
     public static ElementIs RowIsThanItem(string row, string item)
     {

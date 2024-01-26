@@ -1,4 +1,4 @@
-﻿namespace BubbleFinder;
+﻿namespace BinaryFinder;
 
 public enum ElementIs
 {

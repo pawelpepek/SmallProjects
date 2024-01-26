@@ -1,6 +1,6 @@
-﻿namespace BubbleFinder;
+﻿namespace BinaryFinder;
 
-public abstract class BubbleFinderBase<TSource, TSearched>
+public abstract class BinaryFinderBase<TSource, TSearched>
 {
     public int Iterations { get; private set; }
     public TSource Result { get; private set; }
@@ -8,14 +8,14 @@ public abstract class BubbleFinderBase<TSource, TSearched>
     public Range Range { get; set; } = new();
     private TSearched _searchedItem;
 
-    public BubbleFinderBase<TSource, TSearched> SetItems(IList<TSource> items)
+    public BinaryFinderBase<TSource, TSearched> SetItems(IList<TSource> items)
     {
         Items = items;
         return this;
     }
 
-    public BubbleFinderBase<TSource, TSearched> SetRange(int start, int end) => SetRange(new Range(start, end));
-    public BubbleFinderBase<TSource, TSearched> SetRange(Range range)
+    public BinaryFinderBase<TSource, TSearched> SetRange(int start, int end) => SetRange(new Range(start, end));
+    public BinaryFinderBase<TSource, TSearched> SetRange(Range range)
     {
         Range = range;
         return this;

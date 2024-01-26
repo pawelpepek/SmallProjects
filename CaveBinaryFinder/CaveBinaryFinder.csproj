@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BubbleFinder\BubbleFinder.csproj" />
+    <ProjectReference Include="..\BinaryFinder\BinaryFinder.csproj" />
   </ItemGroup>
 
   <ItemGroup>

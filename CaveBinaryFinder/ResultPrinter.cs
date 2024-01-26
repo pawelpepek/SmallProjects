@@ -1,12 +1,12 @@
-﻿using BubbleFinder;
+﻿using BinaryFinder;
 
-namespace CaveBubbleFinder;
+namespace CaveBinaryFinder;
 
 public static class ResultPrinter
 {
     private static int ResultIndex = 0;
 
-    public static void Print<TSource, TSearched>(BubbleFinderBase<TSource, TSearched> finder)
+    public static void Print<TSource, TSearched>(BinaryFinderBase<TSource, TSearched> finder)
     {
         PrintResult(finder.Result?.ToString());
         PrintIterations(finder.Iterations);

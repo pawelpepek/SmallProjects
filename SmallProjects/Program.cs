@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using CaveBubbleFinder;
+using CaveBinaryFinder;
 using SmallProjects;
 
 Console.WriteLine("Small projects!");
 
-CaveBubbleFinderDemo.Run();
+CaveBinaryFinderDemo.Run();
 TreeTraversalDemo.Run();

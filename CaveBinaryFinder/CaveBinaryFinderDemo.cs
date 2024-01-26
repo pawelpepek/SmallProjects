@@ -1,12 +1,12 @@
-﻿using BubbleFinder;
+﻿using BinaryFinder;
 
-namespace CaveBubbleFinder;
+namespace CaveBinaryFinder;
 
-public static class CaveBubbleFinderDemo
+public static class CaveBinaryFinderDemo
 {
     public static void Run()
     {
-        Console.WriteLine("\nCave Bubble Finder Demo");
+        Console.WriteLine("\nCave Binary Finder Demo");
 
         string fileName = @"caves.csv";
 
@@ -19,7 +19,7 @@ public static class CaveBubbleFinderDemo
         ResultPrinter.Print(finder);
 
 
-        var finder2 = new BubbleFinder<string, string>(CaveFinder.RowIsThanItem, item => $";;{item.ToUpper()};")
+        var finder2 = new BinaryFinder<string, string>(CaveFinder.RowIsThanItem, item => $";;{item.ToUpper()};")
                         .SetItems(lines)
                         .SetRange(1, lines.Length - 2);
 

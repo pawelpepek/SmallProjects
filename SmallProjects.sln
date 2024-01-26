@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallProjects", "SmallProjects\SmallProjects.csproj", "{CA2C304B-816E-4064-96A8-0C610671F200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmallProjects", "SmallProjects\SmallProjects.csproj", "{CA2C304B-816E-4064-96A8-0C610671F200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeTraversal", "TreeTraversal\TreeTraversal.csproj", "{ECCA76F9-3486-434B-BA08-F1CA1B78FCE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeTraversal", "TreeTraversal\TreeTraversal.csproj", "{ECCA76F9-3486-434B-BA08-F1CA1B78FCE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleFinder", "BubbleFinder\BubbleFinder.csproj", "{42634BB5-DBBC-469F-B8AA-8D7EB72992F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryFinder", "BinaryFinder\BinaryFinder.csproj", "{42634BB5-DBBC-469F-B8AA-8D7EB72992F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaveBubbleFinder", "CaveBubbleFinder\CaveBubbleFinder.csproj", "{AF39DA2A-905F-4FB5-9202-303CBB2DECF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaveBinaryFinder", "CaveBinaryFinder\CaveBinaryFinder.csproj", "{AF39DA2A-905F-4FB5-9202-303CBB2DECF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
